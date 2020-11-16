@@ -1,0 +1,853 @@
+1605338815603	geckodriver	INFO	Listening on 127.0.0.1:50739
+1605338815608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZwvvK4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605338818796	Marionette	INFO	Listening on port 34563
+1605338818853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+1605338820268	Marionette	INFO	Stopped listening on port 34563
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1605338882810	geckodriver	INFO	Listening on 127.0.0.1:36063
+1605338882814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepIycpv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605338885921	Marionette	INFO	Listening on port 33335
+1605338886052	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://edufpmi.bsu.by"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605339181540	Marionette	INFO	Stopped listening on port 33335
+1605339183404	geckodriver	INFO	Listening on 127.0.0.1:34393
+1605339184414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebQHRdP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605339186747	Marionette	INFO	Listening on port 45977
+1605339186844	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605339198155	Marionette	INFO	Stopped listening on port 45977
+1605339274688	geckodriver	INFO	Listening on 127.0.0.1:42283
+1605339274692	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebxJgSn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605339276654	Marionette	INFO	Listening on port 36247
+1605339276716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605339328805	Marionette	INFO	Stopped listening on port 36247
+1605339331378	geckodriver	INFO	Listening on 127.0.0.1:53115
+1605339331384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8An9jX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605339333328	Marionette	INFO	Listening on port 45511
+1605339333408	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605339784452	Marionette	INFO	Stopped listening on port 45511
+1605339785987	geckodriver	INFO	Listening on 127.0.0.1:42599
+1605339786996	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb41g8v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605339789151	Marionette	INFO	Listening on port 37275
+1605339789246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605339913524	geckodriver	INFO	Listening on 127.0.0.1:42329
+1605339913538	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiRs74a"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605339916486	Marionette	INFO	Listening on port 33841
+1605339916593	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605339983662	Marionette	INFO	Stopped listening on port 33841
+1605339986492	geckodriver	INFO	Listening on 127.0.0.1:52841
+1605339987503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelSlwU9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605339989827	Marionette	INFO	Listening on port 42923
+1605339989990	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+1605340013889	Marionette	INFO	Stopped listening on port 42923
+1605340015593	geckodriver	INFO	Listening on 127.0.0.1:46693
+1605340015598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJfMRrg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605340018465	Marionette	INFO	Listening on port 39237
+1605340018527	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605340039193	Marionette	INFO	Stopped listening on port 39237
+1605340063864	Marionette	INFO	Stopped listening on port 37275
+1605340110421	geckodriver	INFO	Listening on 127.0.0.1:43849
+1605340110425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek0lSWD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605340112506	Marionette	INFO	Listening on port 37075
+1605340112555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605340128162	Marionette	INFO	Stopped listening on port 37075
+1605341776466	geckodriver	INFO	Listening on 127.0.0.1:48153
+1605341776470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef1nzPX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605341778656	Marionette	INFO	Listening on port 46713
+1605341778701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605341821263	geckodriver	INFO	Listening on 127.0.0.1:53619
+1605341821267	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiled5aHij"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605341823518	Marionette	INFO	Listening on port 44709
+1605341823800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605341843611	Marionette	INFO	Stopped listening on port 46713
+1605341845479	Marionette	INFO	Stopped listening on port 44709
+1605341891454	geckodriver	INFO	Listening on 127.0.0.1:39823
+1605341891459	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo3a7sh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605341893707	Marionette	INFO	Listening on port 33651
+1605341893785	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605341909952	Marionette	INFO	Stopped listening on port 33651
+1605341968948	geckodriver	INFO	Listening on 127.0.0.1:55229
+1605341968953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHfNnMm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605341970990	Marionette	INFO	Listening on port 43815
+1605341971080	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605342039769	Marionette	INFO	Stopped listening on port 43815
+1605342041234	geckodriver	INFO	Listening on 127.0.0.1:55951
+1605342041238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1UgElU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605342043264	Marionette	INFO	Listening on port 33525
+1605342043369	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605342143423	Marionette	INFO	Stopped listening on port 33525
+1605342146326	geckodriver	INFO	Listening on 127.0.0.1:56459
+1605342147331	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4JTiKE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605342149467	Marionette	INFO	Listening on port 40613
+1605342149560	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/styles.js:566:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2252))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child2/pagestyle26 (resource://devtools/server/actors/styles.js:566:5)", "resource://devtools/shared/protocol/Front.js", 341))
+1605342563252	Marionette	INFO	Stopped listening on port 40613
+1605342652286	geckodriver	INFO	Listening on 127.0.0.1:34777
+1605342653295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNayIwG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605342655667	Marionette	INFO	Listening on port 35555
+1605342655735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605342696385	Marionette	INFO	Stopped listening on port 35555
+1605342698027	geckodriver	INFO	Listening on 127.0.0.1:49291
+1605342698034	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJbpu03"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605342700152	Marionette	INFO	Listening on port 43763
+1605342700259	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605342767019	geckodriver	INFO	Listening on 127.0.0.1:39183
+1605342767024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewldTKX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605342769293	Marionette	INFO	Listening on port 42869
+1605342769386	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605342770139	Marionette	INFO	Stopped listening on port 43763
+1605342829905	Marionette	INFO	Stopped listening on port 42869
+1605343146301	geckodriver	INFO	Listening on 127.0.0.1:41851
+1605343146306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileotHoNf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605343148389	Marionette	INFO	Listening on port 37199
+1605343148435	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605343273330	Marionette	INFO	Stopped listening on port 37199
+1605343275340	geckodriver	INFO	Listening on 127.0.0.1:45955
+1605343275344	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJgpy6y"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605343277611	Marionette	INFO	Listening on port 36307
+1605343277679	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:226:34
+emit@resource://devtools/shared/event-emitter.js:172:18
+emit@resource://devtools/shared/event-emitter.js:324:18
+getMutations@resource://devtools/client/fronts/walker.js:405:10
+
+1605343433197	Marionette	INFO	Stopped listening on port 36307
+1605343434549	geckodriver	INFO	Listening on 127.0.0.1:40851
+1605343434553	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOtE89P"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605343436940	Marionette	INFO	Listening on port 37811
+1605343436992	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605343560579	geckodriver	INFO	Listening on 127.0.0.1:38139
+1605343560583	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexKe8Q5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605343563325	Marionette	INFO	Listening on port 41783
+1605343563427	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605343564641	Marionette	INFO	Stopped listening on port 37811
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+1605343607603	Marionette	INFO	Stopped listening on port 41783
+1605343754428	geckodriver	INFO	Listening on 127.0.0.1:55443
+1605343754432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZpN0xY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605343756562	Marionette	INFO	Listening on port 45249
+1605343756667	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605343921683	geckodriver	INFO	Listening on 127.0.0.1:38373
+1605343922694	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileI4cPVU"
+1605343924649	Marionette	INFO	Stopped listening on port 45249
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605343925890	Marionette	INFO	Listening on port 42737
+1605343925938	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605343932773	Marionette	INFO	Stopped listening on port 42737
+1605344005183	geckodriver	INFO	Listening on 127.0.0.1:52067
+1605344005187	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9vVIVl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605344007231	Marionette	INFO	Listening on port 37821
+1605344007324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605344030622	Marionette	INFO	Stopped listening on port 37821
+1605344086137	geckodriver	INFO	Listening on 127.0.0.1:57139
+1605344086141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileslcahn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605344088244	Marionette	INFO	Listening on port 44417
+1605344088280	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605344127279	Marionette	INFO	Stopped listening on port 44417
+1605344626718	geckodriver	INFO	Listening on 127.0.0.1:34925
+1605344626723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLWfrrn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605344628816	Marionette	INFO	Listening on port 33687
+1605344628866	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605344643450	Marionette	INFO	Stopped listening on port 33687
+1605344648312	geckodriver	INFO	Listening on 127.0.0.1:58977
+1605344648317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUvYgCK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605344650333	Marionette	INFO	Listening on port 42185
+1605344650451	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605344688556	Marionette	INFO	Stopped listening on port 42185
+1605346815153	geckodriver	INFO	Listening on 127.0.0.1:37633
+1605346815160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeOx7b0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605346817847	Marionette	INFO	Listening on port 34509
+1605346817958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605346843798	Marionette	INFO	Stopped listening on port 34509
+1605347110337	geckodriver	INFO	Listening on 127.0.0.1:47169
+1605347110342	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSSgwqo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605347112374	Marionette	INFO	Listening on port 34469
+1605347112485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605347144950	Marionette	INFO	Stopped listening on port 34469
+1605350714920	geckodriver	INFO	Listening on 127.0.0.1:42559
+1605350714929	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3drkoh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605350717598	Marionette	INFO	Listening on port 39709
+1605350717682	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605350734891	Marionette	INFO	Stopped listening on port 39709
+1605350770804	geckodriver	INFO	Listening on 127.0.0.1:48709
+1605350770815	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8Unooq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605350773670	Marionette	INFO	Listening on port 38575
+1605350773755	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1605350917427	geckodriver	INFO	Listening on 127.0.0.1:37833
+1605350917437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeLpVlf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605350919651	Marionette	INFO	Listening on port 38303
+1605350919763	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605350954167	Marionette	INFO	Stopped listening on port 38303
+1605351602020	geckodriver	INFO	Listening on 127.0.0.1:58629
+1605351602025	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileL0QkV3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605351603851	Marionette	INFO	Listening on port 34685
+1605351603992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605351607514	Marionette	INFO	Stopped listening on port 34685
+1605351835341	geckodriver	INFO	Listening on 127.0.0.1:33229
+1605351835354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehCxdj5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605351837419	Marionette	INFO	Listening on port 44119
+1605351837490	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "jquery", needed by: core/first, core/event
+http://requirejs.org/docs/errors.html#scripterror
+1605351876202	Marionette	INFO	Stopped listening on port 44119
+1605352150707	geckodriver	INFO	Listening on 127.0.0.1:52665
+1605352150718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0MfCgV"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605352152744	Marionette	INFO	Listening on port 34669
+1605352152840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605352160064	Marionette	INFO	Stopped listening on port 34669
+1605352215291	geckodriver	INFO	Listening on 127.0.0.1:38431
+1605352215298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYIFbNd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605352217505	Marionette	INFO	Listening on port 33837
+1605352217532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605352227015	Marionette	INFO	Stopped listening on port 33837
+1605352402980	geckodriver	INFO	Listening on 127.0.0.1:32939
+1605352403985	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebMyjcs"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605352406459	Marionette	INFO	Listening on port 33485
+1605352406515	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605352409753	Marionette	INFO	Stopped listening on port 33485
+1605355300684	geckodriver	INFO	Listening on 127.0.0.1:45891
+1605355300700	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLNlMV4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605355302865	Marionette	INFO	Listening on port 34851
+1605355302931	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605355306493	Marionette	INFO	Stopped listening on port 34851
+1605361481602	geckodriver	INFO	Listening on 127.0.0.1:43729
+1605361482617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSMmF0k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605361485685	Marionette	INFO	Listening on port 32965
+1605361485743	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605361520137	Marionette	INFO	Stopped listening on port 32965
+1605361526576	geckodriver	INFO	Listening on 127.0.0.1:56967
+1605361526590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMW4E7E"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605361528308	Marionette	INFO	Listening on port 41075
+1605361528443	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605362466340	Marionette	INFO	Stopped listening on port 41075
+1605362473087	geckodriver	INFO	Listening on 127.0.0.1:48947
+1605362474096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuQmUqZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605362476719	Marionette	INFO	Listening on port 46113
+1605362476839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605362497067	Marionette	INFO	Stopped listening on port 46113
+1605362669086	geckodriver	INFO	Listening on 127.0.0.1:45403
+1605362670093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBalbtN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605362672471	Marionette	INFO	Listening on port 44641
+1605362672524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605362684764	Marionette	INFO	Stopped listening on port 44641
+1605362696021	geckodriver	INFO	Listening on 127.0.0.1:60459
+1605362696026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles2h3gd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605362698191	Marionette	INFO	Listening on port 42903
+1605362698253	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605362742040	Marionette	INFO	Stopped listening on port 42903
+1605362747425	geckodriver	INFO	Listening on 127.0.0.1:56871
+1605362747430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMw7AUk"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605362749542	Marionette	INFO	Listening on port 38489
+1605362749660	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605362779222	Marionette	INFO	Stopped listening on port 38489
+1605362780724	geckodriver	INFO	Listening on 127.0.0.1:57151
+1605362780728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilek8j9XA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605362782852	Marionette	INFO	Listening on port 37311
+1605362782958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605362794047	Marionette	INFO	Stopped listening on port 37311
+1605362797920	geckodriver	INFO	Listening on 127.0.0.1:47047
+1605362797924	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW3I8YG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605362800064	Marionette	INFO	Listening on port 42545
+1605362800159	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605365806585	Marionette	INFO	Stopped listening on port 42545
+1605365809188	geckodriver	INFO	Listening on 127.0.0.1:43245
+1605365810197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWl6N6c"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605365812425	Marionette	INFO	Listening on port 43601
+1605365812522	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605366044286	geckodriver	INFO	Listening on 127.0.0.1:59243
+1605366044290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuJ3aXw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605366046476	Marionette	INFO	Listening on port 43263
+1605366046520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605366070417	Marionette	INFO	Stopped listening on port 43601
+1605366072020	Marionette	INFO	Stopped listening on port 43263
+1605366952272	geckodriver	INFO	Listening on 127.0.0.1:38663
+1605366952278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSfsw7X"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605366953991	Marionette	INFO	Listening on port 38931
+1605366954121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605367656975	geckodriver	INFO	Listening on 127.0.0.1:57859
+1605367657984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile10SaAp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605367660115	Marionette	INFO	Listening on port 36791
+1605367660217	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605367673982	Marionette	INFO	Stopped listening on port 36791
+1605367682861	geckodriver	INFO	Listening on 127.0.0.1:55895
+1605367682867	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTBAbAt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605367684999	Marionette	INFO	Listening on port 44517
+1605367685096	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1605367778270	Marionette	INFO	Stopped listening on port 38931
+1605367806640	geckodriver	INFO	Listening on 127.0.0.1:56053
+1605367806644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewA7Qnz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605367808939	Marionette	INFO	Listening on port 36377
+1605367808976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605367827344	Marionette	INFO	Stopped listening on port 36377
+1605367854976	geckodriver	INFO	Listening on 127.0.0.1:58861
+1605367854979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYTaIUR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605367857620	Marionette	INFO	Listening on port 32873
+1605367857704	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605367870466	Marionette	INFO	Stopped listening on port 32873
+1605367909940	geckodriver	INFO	Listening on 127.0.0.1:57227
+1605367909944	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVVxtxx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605367912366	Marionette	INFO	Listening on port 45569
+1605367912469	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605367914138	Marionette	INFO	Stopped listening on port 45569
+1605367920354	geckodriver	INFO	Listening on 127.0.0.1:55647
+1605367920358	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9Tp7JQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605367922453	Marionette	INFO	Listening on port 33097
+1605367922494	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605367965477	Marionette	INFO	Stopped listening on port 33097
+1605368220434	geckodriver	INFO	Listening on 127.0.0.1:45601
+1605368220438	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWbPVPy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368222501	Marionette	INFO	Listening on port 39173
+1605368222564	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368285106	geckodriver	INFO	Listening on 127.0.0.1:40677
+1605368285111	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesg0F8D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368287302	Marionette	INFO	Listening on port 35395
+1605368287590	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368290063	Marionette	INFO	Stopped listening on port 39173
+1605368291608	Marionette	INFO	Stopped listening on port 44517
+1605368318212	geckodriver	INFO	Listening on 127.0.0.1:33589
+1605368319218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWGuXkY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368321576	Marionette	INFO	Listening on port 36489
+1605368321650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368367459	geckodriver	INFO	Listening on 127.0.0.1:53073
+1605368367464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile76sgNh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368369781	Marionette	INFO	Listening on port 39739
+1605368369910	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368391732	geckodriver	INFO	Listening on 127.0.0.1:49373
+1605368392748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9LnkVO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368396031	Marionette	INFO	Listening on port 46459
+1605368396106	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368398227	Marionette	INFO	Stopped listening on port 36489
+1605368399370	Marionette	INFO	Stopped listening on port 35395
+1605368400636	Marionette	INFO	Stopped listening on port 39739
+1605368529325	geckodriver	INFO	Listening on 127.0.0.1:46037
+1605368529330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledMO0qI"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368531620	Marionette	INFO	Listening on port 34363
+1605368531665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368533258	Marionette	INFO	Stopped listening on port 46459
+1605368550783	geckodriver	INFO	Listening on 127.0.0.1:43251
+1605368550787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ6k7ML"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368552758	Marionette	INFO	Listening on port 40061
+1605368552812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368563985	Marionette	INFO	Stopped listening on port 40061
+1605368814985	geckodriver	INFO	Listening on 127.0.0.1:34011
+1605368814991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoajknh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605368817085	Marionette	INFO	Listening on port 36551
+1605368817124	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605368834385	Marionette	INFO	Stopped listening on port 36551
+1605368972321	Marionette	INFO	Stopped listening on port 34363
+1605424667996	geckodriver	INFO	Listening on 127.0.0.1:56909
+1605424668997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY8rbiR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605424671498	Marionette	INFO	Listening on port 33147
+1605424671547	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605424716692	Marionette	INFO	Stopped listening on port 33147
+1605437448801	geckodriver	INFO	Listening on 127.0.0.1:48117
+1605437449775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6WhCHx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605437453289	Marionette	INFO	Listening on port 32973
+1605437453327	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605437456965	Marionette	INFO	Stopped listening on port 32973
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?delayStartupUntil=configured, line 19: NS_ERROR_NOT_INITIALIZED: 
+1605437663649	geckodriver	INFO	Listening on 127.0.0.1:34211
+1605437664629	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSAFAgf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605437666957	Marionette	INFO	Listening on port 36091
+1605437667061	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605437670113	Marionette	INFO	Stopped listening on port 36091
+1605437726249	geckodriver	INFO	Listening on 127.0.0.1:49249
+1605437727260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8K41ZZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605437729374	Marionette	INFO	Listening on port 44503
+1605437729403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605437733831	Marionette	INFO	Stopped listening on port 44503
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?delayStartupUntil=configured, line 19: NS_ERROR_NOT_INITIALIZED: 
