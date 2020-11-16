@@ -2,29 +2,14 @@ from time import sleep
 from selenium import webdriver
 
 
-def register(user):
-    file = open("users.txt")
-    username = "user"
-    password = "password"
-    for line in file:
-        tokens = line.split(':')
-        if tokens[0] == user:
-            username = tokens[1]
-            password = tokens[2]
-            break
-    return [username, password]
-
-
+# собственно вход
 def login(driver, username, password):
     driver.find_element_by_id("username").send_keys(username)
     driver.find_element_by_id("password").send_keys(password)
     driver.find_element_by_id("loginbtn").click()
 
 
-def get_timetable():
-    return ["Вычислительные методы алгебры", "Программирование"]
-
-
+# перевод названий предметов из файла в слова для поиска среди курсов на сайте
 def translate(subject):
     string, time = str(subject).split(" ")
     if string == "МА":
@@ -45,6 +30,7 @@ def translate(subject):
     return [string, time]
 
 
+# конкретно тут я пробовал входить на одну из лекций на своём курсе ДМиМЛа, получилось
 def enter_conference(driver, course_url):
     driver.get(course_url)
     driver.find_element_by_xpath('//*[@id="module-2658"]/div/div/div[2]/div/a').click()
@@ -54,6 +40,7 @@ def enter_conference(driver, course_url):
     driver.find_element_by_xpath("//span[text()='Только слушать']").click()
 
 
+# поиск курса в списке
 def find_course(courses_list, subject):
     for list_item in courses_list:
         course_name = str(list_item.text)
@@ -63,13 +50,20 @@ def find_course(courses_list, subject):
 
 
 if __name__ == "__main__":
-    usr, pwd = register("Аким Малыщик")
-    dvr = webdriver.Firefox()
-    dvr.get("https://edufpmi.bsu.by")
-    main_url = dvr.current_url
-    login(dvr, usr, pwd)
-    if dvr.current_url == main_url:
-        print("Wrong username or password, fix the input file...")
+    # начал тут писать обработку данных передаваемых ботом, пока не доделал
+    file = open("subjects_to_attend.txt")
+    for line in file:
+        data = line.replace("\n", "").split("|")
+        usr, pwd = data[0].split(";")
+        subjects = data[1].split(";")
 
-    sleep(5)
-    courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
+        # попытка входа
+        dvr = webdriver.Firefox()
+        dvr.get("https://edufpmi.bsu.by")
+        main_url = dvr.current_url
+        login(dvr, usr, pwd)
+        if dvr.current_url == main_url:
+            login(dvr, usr, pwd)
+        sleep(5)
+        # получение списка курсов
+        courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
