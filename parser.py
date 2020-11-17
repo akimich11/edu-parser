@@ -49,8 +49,14 @@ def find_course(courses_list, subject):
     return 404
 
 
-if __name__ == "__main__":
-    # начал тут писать обработку данных передаваемых ботом, пока не доделал
+# works only if there is only two tabs
+def get_other_window_handle(dvr, handle):
+    for element in dvr.window_handles:
+        if (element != handle):
+            return element
+
+
+if "__main__" == __name__:
     file = open("subjects_to_attend.txt")
     for line in file:
         data = line.replace("\n", "").split("|")
@@ -67,3 +73,28 @@ if __name__ == "__main__":
         sleep(5)
         # получение списка курсов
         courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
+
+        windowHandlers = dvr.window_handles
+        for i in range(len(courses)):
+            element = courses[i]
+            old_handle = dvr.current_window_handle
+            element.click()  # open course in current tab to get it's URL
+            sleep(3)  # todo: change it to the dynamic version
+            newTabURL = dvr.current_url  # get course's URL
+            dvr.back()  # go back to the menu page
+            dvr.execute_script("window.open('" + newTabURL + "')")  # open new tab with the course
+            dvr.switch_to.window(get_other_window_handle(dvr, dvr.current_window_handle))
+
+            linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
+                                                      "/attendance/1604991493/icon']");
+
+            for x in linked_image:
+                x.click()
+                # find empty radiobutton (with 'prisutstvoval' value)
+                # click it
+                # dvr.back()
+
+            dvr.close()
+            dvr.switch_to.window(old_handle)
+            sleep(3)  # todo: change it to the dynamic version
+            courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
