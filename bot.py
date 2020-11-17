@@ -177,8 +177,8 @@ def reply(message):
         data.write(this_user[0].username + ";" + this_user[0].password + ";" + this_user[0].course + ";" +
                    this_user[0].group + ";" + str(this_user[0].chat_id) + "\n")
         data.close()
-        bot.send_message(message.chat.id, 'Регистрация завершена. Теперь, если захочешь поспать, так и напиши, '
-                                          '"хочу завтра поспать", а я сделаю всё остальное')
+        bot.send_message(message.chat.id, 'Регистрация завершена. Теперь, если захочешь поспать, напиши '
+                                          '/plan, а я сделаю всё остальное')
         this_user[1].registered = True
 
 
