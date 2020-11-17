@@ -11,7 +11,7 @@ if __name__ == '__main__':
     file = open('users.txt')
     for line in file:
         tokens = line.split(";")
-        chat = tokens[4].replace("\n", "")
+        chat = int(tokens[4].replace("\n", ""))
         vars.users.append(vars.User(chat))
         vars.user_booleans.append(vars.UserBooleans(chat))
         vars.users[-1].username = tokens[0]
@@ -25,7 +25,7 @@ if __name__ == '__main__':
 def find_user_by_chat(chat_id):
     counter = 0
     for user in vars.users:
-        if user.chat_id == str(chat_id):
+        if user.chat_id == chat_id:
             return [user, vars.user_booleans[counter]]
         counter += 1
     return 404
@@ -157,7 +157,7 @@ def reply(message):
         this_user[1].course = True
 
     elif this_user[1].course:
-        if (not message.text.is_digit()) or int(message.text) > 4 or int(message.text < 1):
+        if (not message.text.isdigit()) or int(message.text) > 4 or int(message.text) < 1:
             bot.send_message(message.chat.id, "Да введи ты нормально чо прикалываешься")
             return
         this_user[1].course = False
@@ -168,7 +168,7 @@ def reply(message):
         this_user[1].group = True
 
     elif this_user[1].group:
-        if (not message.text.is_digit()) or int(message.text) > 14 or int(message.text < 1):
+        if (not message.text.isdigit()) or int(message.text) > 14 or int(message.text) < 1:
             bot.send_message(message.chat.id, "Да введи ты нормально чо прикалываешься")
             return
         this_user[1].group = False
