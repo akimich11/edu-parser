@@ -851,3 +851,48 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1605437729403	Marionette	WARN	TLS certificate errors will be ignored for this session
 1605437733831	Marionette	INFO	Stopped listening on port 44503
 JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?delayStartupUntil=configured, line 19: NS_ERROR_NOT_INITIALIZED: 
+1605628641764	geckodriver	INFO	Listening on 127.0.0.1:39567
+1605628642772	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletabPKn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605628645469	Marionette	INFO	Listening on port 39589
+1605628645515	Marionette	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: this.curBrowser.messageManager is null
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:361:5
+send/<@chrome://marionette/content/proxy.js:190:12
+send@chrome://marionette/content/proxy.js:124:12
+get/<@chrome://marionette/content/proxy.js:37:29
+GeckoDriver.prototype._getCurrentURL@chrome://marionette/content/driver.js:320:33
+GeckoDriver.prototype.getCurrentUrl@chrome://marionette/content/driver.js:1232:26
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://edufpmi.bsu.by/login/index.php, line 262: TypeError: M.filter_mathjaxloader is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 697: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1605628647462	Marionette	INFO	Stopped listening on port 39589
+1605628655313	geckodriver	INFO	Listening on 127.0.0.1:58021
+1605628655316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePoKlB6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605628657565	Marionette	INFO	Listening on port 45787
+1605628657638	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605628661946	Marionette	INFO	Stopped listening on port 45787
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?delayStartupUntil=configured, line 19: NS_ERROR_NOT_INITIALIZED: 
+1605628688876	geckodriver	INFO	Listening on 127.0.0.1:32907
+1605628688883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6yjYrc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605628691002	Marionette	INFO	Listening on port 38661
+1605628691107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605628694352	Marionette	INFO	Stopped listening on port 38661
