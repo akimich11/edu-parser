@@ -28,14 +28,6 @@ def find_user_by_chat(chat_id):
     return 404
 
 
-def create_markup(message):
-    markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    markup.add(*vars.times)
-    bot.send_message(message.chat.id, 'Давай на пары за тебя схожу. Тыкни время, когда мне за тебя отметиться или '
-                                      'войти в конференцию. Когда закончишь, нажми кнопку "Готово"',
-                     reply_markup=markup)
-
-
 def try_to_login(message, user):
     dvr = webdriver.Firefox()
     dvr.get("https://edufpmi.bsu.by")
@@ -51,12 +43,12 @@ def try_to_login(message, user):
         bot.send_message(message.chat.id, "Вход на edu выполнен, можешь спать спокойно, с парами я разберусь")
     output = open("subjects_to_attend.txt", "a")
     output.write(user[0].username + ";" + user[0].password + "|")
-    for time in user[0].subjects_to_attend:
-        if time != user[0].subjects_to_attend[-1]:
+    for time in user[0].times_to_attend:
+        if time != user[0].times_to_attend[-1]:
             output.write(time + ";")
         else:
             output.write(time + "\n")
-    user[0].subjects_to_attend = []
+    user[0].times_to_attend = []
     dvr.quit()
 
 
@@ -80,8 +72,12 @@ def plan(message):
         return
 
     if this_user[1].registered:
-        this_user[0].subjects = vars.times
-        create_markup(message)
+        this_user[0].times = vars.buttons
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+        markup.add(*vars.buttons)
+        bot.send_message(message.chat.id, 'Давай на пары за тебя схожу. Тыкни время, когда мне за тебя отметиться или '
+                                          'войти в конференцию. Когда закончишь, нажми кнопку "Готово"',
+                         reply_markup=markup)
 
 
 @bot.message_handler(content_types=['text'])
@@ -92,16 +88,6 @@ def reply(message):
         vars.user_booleans.append(vars.UserBooleans(message.chat.id))
         bot.send_message(message.chat.id, "Привет. А я тебя не знаю. Введи свой логин с edufpmi")
         vars.user_booleans[-1].username = True
-
-    elif message.text == "Готово":
-        try_to_login(message, this_user)
-
-    elif str(message.text) in vars.times:
-        this_user[0].subjects_to_attend.append(message.text)
-        markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-        this_user[0].subjects.remove(str(message.text))
-        markup.add(*this_user[0].subjects)
-        bot.send_message(message.chat.id, "Принял", reply_markup=markup)
 
     elif this_user[1].username:
         this_user[1].username = False
@@ -118,6 +104,16 @@ def reply(message):
         bot.send_message(message.chat.id, 'Регистрация завершена. Теперь, если захочешь поспать, напиши '
                                           '/plan, а я сделаю всё остальное')
         this_user[1].registered = True
+
+    elif message.text == "Готово":
+        try_to_login(message, this_user)
+
+    elif str(message.text) in vars.buttons:
+        this_user[0].times_to_attend.append(message.text)
+        markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+        this_user[0].times.remove(str(message.text))
+        markup.add(*this_user[0].times)
+        bot.send_message(message.chat.id, "Принял", reply_markup=markup)
 
 
 bot.polling(none_stop=True)
