@@ -86,7 +86,7 @@ if "__main__" == __name__:
             dvr.switch_to.window(get_other_window_handle(dvr, dvr.current_window_handle))
 
             linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
-                                                      "/attendance/1604991493/icon']");
+                                                      "/attendance/1604991493/icon']")
 
             for i in range(len(linked_image)):
                 x = linked_image[i]
@@ -95,7 +95,7 @@ if "__main__" == __name__:
                 # click it
                 dvr.back()
                 linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
-                                                      "/attendance/1604991493/icon']")
+                                                          "/attendance/1604991493/icon']")
 
             dvr.close()
             dvr.switch_to.window(old_handle)
