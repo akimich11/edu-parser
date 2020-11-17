@@ -64,7 +64,7 @@ if "__main__" == __name__:
         subjects = data[1].split(";")
 
         # попытка входа
-        dvr = webdriver.Chrome()
+        dvr = webdriver.Firefox()
         dvr.get("https://edufpmi.bsu.by")
         main_url = dvr.current_url
         login(dvr, usr, pwd)
@@ -74,30 +74,20 @@ if "__main__" == __name__:
         # получение списка курсов
         courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
 
-        windowHandlers = dvr.window_handles
         for i in range(len(courses)):
-            element = courses[i]
-            old_handle = dvr.current_window_handle
-            element.click()  # open course in current tab to get it's URL
-            sleep(3)  # todo: change it to the dynamic version
-            newTabURL = dvr.current_url  # get course's URL
-            dvr.back()  # go back to the menu page
-            dvr.execute_script("window.open('" + newTabURL + "')")  # open new tab with the course
-            dvr.switch_to.window(get_other_window_handle(dvr, dvr.current_window_handle))
-
+            courses[i].click()  # open course in current tab to get it's URL
+            sleep(5)  # todo: change it to the dynamic version
             linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
-                                                      "/attendance/1604991493/icon']");
-
-            for i in range(len(linked_image)):
-                x = linked_image[i]
-                x.click()
-                # find empty radiobutton (with 'prisutstvoval' value)
+                                                      "/attendance/1604991493/icon']")
+            for x in range(len(linked_image)):
+                attendance = linked_image[x]
+                attendance.click()
+                sleep(5)
+                # find empty radiobutton (with 'ПРИСУТСТВОВАЛ' value)
                 # click it
                 dvr.back()
                 linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
-                                                      "/attendance/1604991493/icon']")
-
-            dvr.close()
-            dvr.switch_to.window(old_handle)
-            sleep(3)  # todo: change it to the dynamic version
+                                                          "/attendance/1604991493/icon']")
+            dvr.back()
+            sleep(5)  # todo: change it to the dynamic version
             courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
