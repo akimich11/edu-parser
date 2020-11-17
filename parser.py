@@ -64,7 +64,7 @@ if "__main__" == __name__:
         subjects = data[1].split(";")
 
         # попытка входа
-        dvr = webdriver.Firefox()
+        dvr = webdriver.Chrome()
         dvr.get("https://edufpmi.bsu.by")
         main_url = dvr.current_url
         login(dvr, usr, pwd)
@@ -88,11 +88,14 @@ if "__main__" == __name__:
             linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                       "/attendance/1604991493/icon']");
 
-            for x in linked_image:
+            for i in range(len(linked_image)):
+                x = linked_image[i]
                 x.click()
                 # find empty radiobutton (with 'prisutstvoval' value)
                 # click it
-                # dvr.back()
+                dvr.back()
+                linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
+                                                      "/attendance/1604991493/icon']")
 
             dvr.close()
             dvr.switch_to.window(old_handle)
