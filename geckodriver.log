@@ -1058,3 +1058,338 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1605644554138	Marionette	INFO	Listening on port 32899
 1605644554233	Marionette	WARN	TLS certificate errors will be ignored for this session
 1605644590868	Marionette	INFO	Stopped listening on port 32899
+1605697525098	geckodriver	INFO	Listening on 127.0.0.1:59549
+1605697528132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilekToVLJ"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605697531106	Marionette	INFO	Listening on port 59557
+1605697531267	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+1605697534395	Marionette	INFO	Stopped listening on port 59557
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605697557127	geckodriver	INFO	Listening on 127.0.0.1:59602
+1605697560164	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileC30kWe"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605697562325	Marionette	INFO	Listening on port 59610
+1605697562798	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605697604551	Marionette	INFO	Stopped listening on port 59610
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605697605609	geckodriver	INFO	Listening on 127.0.0.1:59657
+1605697608648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilecXShRA"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605697610835	Marionette	INFO	Listening on port 59665
+1605697611273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605697725772	Marionette	INFO	Stopped listening on port 59665
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileflUCSM"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605697723683	Marionette	INFO	Listening on port 59730
+1605697723966	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605697996286	Marionette	INFO	Stopped listening on port 59730
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605698037918	geckodriver	INFO	Listening on 127.0.0.1:59953
+1605698040957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilejd2ubc"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605698043247	Marionette	INFO	Listening on port 59961
+1605698043592	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605698593502	Marionette	INFO	Stopped listening on port 59961605698593942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileRFxFt5"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605698596150	Marionette	INFO	Listening on port 60256
+1605698596581	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605699121305	Marionette	INFO	Stopped listening on port 60256
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileabk6mF"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605698642177	Marionette	INFO	Listening on port 60331
+1605698642651	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+1605699128075	Marionette	INFO	Stopped listening on port 60331
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilerfHcrR"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605698770613	Marionette	INFO	Listening on port 60437
+1605698770923	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605699097625	Marionette	INFO	Stopped listening on port 60437
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605699129053	geckodriver	INFO	Listening on 127.0.0.1:60678
+1605699132081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilexYvhWB"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605699134495	Marionette	INFO	Listening on port 60687
+1605699134704	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605699149234	Marionette	INFO	Stopped listening on port 60687
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605699178275	geckodriver	INFO	Listening on 127.0.0.1:60755
+1605699181313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileo5BaRt"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605699183480	Marionette	INFO	Listening on port 60767
+1605699183936	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605699200814	Marionette	INFO	Stopped listening on port 60767
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605699212169	geckodriver	INFO	Listening on 127.0.0.1:60837
+1605699215196	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilehy3zrM"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605699217400	Marionette	INFO	Listening on port 60846
+1605699217821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+1605705475387	geckodriver	INFO	Listening on 127.0.0.1:64142
+1605705478394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileEEJIIH"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605705480689	Marionette	INFO	Listening on port 64150
+1605705481019	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605705581477	Marionette	INFO	Stopped listening on port 64151605705581491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileuV5IFq"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605705583734	Marionette	INFO	Listening on port 64250
+1605705584118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605705614783	Marionette	INFO	Stopped listening on port 64251605705615038	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileMz1Yzd"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605705617237	Marionette	INFO	Listening on port 64314
+1605705617668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605705667069	Marionette	INFO	Stopped listening on port 64314
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofilezehqUp"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605705668217	Marionette	INFO	Listening on port 64390
+1605705668546	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605707650114	geckodriver	INFO	Listening on 127.0.0.1:65276
+1605707653142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileiYOCPh"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605707655415	Marionette	INFO	Listening on port 65284
+1605707655772	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605707799455	Marionette	INFO	Stopped listening on port 65284
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofile3EnHiH"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605707801589	Marionette	INFO	Listening on port 65405
+1605707801915	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+1605707876250	geckodriver	INFO	Listening on 127.0.0.1:65485
+1605707879288	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileFZAy6T"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605707881509	Marionette	INFO	Listening on port 65494
+1605707881929	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605708316988	Marionette	INFO	Stopped listening on port 65494
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Temp\\rust_mozprofileiHaVRf"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605708107069	Marionette	INFO	Listening on port 49266
+1605708107483	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605708144595	Marionette	INFO	Stopped listening on port 49266
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605708256252	geckodriver	INFO	Listening on 127.0.0.1:49391
+1605708259268	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileP799kN"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605708261452	Marionette	INFO	Listening on port 49403
+1605708261893	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605708371282	geckodriver	INFO	Listening on 127.0.0.1:49491
+1605708374301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileNjjOCx"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605708376542	Marionette	INFO	Listening on port 49499
+1605708376927	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605708405433	geckodriver	INFO	Listening on 127.0.0.1:49557
+1605708408460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofileJod2Eh"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605708410624	Marionette	INFO	Listening on port 49568
+1605708411106	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
+1605708605525	Marionette	INFO	Stopped listening on port 49568
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1605708967805	geckodriver	INFO	Listening on 127.0.0.1:49898
+1605708970843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilebbO3A7"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605708973052	Marionette	INFO	Listening on port 49908
+1605708973468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
+http://requirejs.org/docs/errors.html#scripterror
