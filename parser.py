@@ -45,12 +45,14 @@ if "__main__" == __name__:
             for x in range(len(linked_image)):
                 attendance = linked_image[x]
                 attendance.click()
-                # find "Отправить посещаемость" hyperlink
-                # click it
-                # find empty radiobutton (with 'Присутствовал' value)
-                # click it
-                # dvr.back()
-                # dvr.back()
+                send_link = dvr.find_elements_by_link_text("Отправить посещаемость")
+                if len(send_link) != 0:
+                    send_link[-1].click()
+                    dvr.find_element_by_xpath("//span[text()='Присутствовал']").click()
+                    dvr.find_element_by_id("айдишник кнопки сохранить").click()
+                    dvr.back()
+                    dvr.back()
+                    # dvr.back()
                 dvr.back()
                 linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                           "/attendance/1604991493/icon']")
