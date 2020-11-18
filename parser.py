@@ -64,30 +64,33 @@ if "__main__" == __name__:
         subjects = data[1].split(";")
 
         # попытка входа
-        dvr = webdriver.Firefox()
+        dvr = webdriver.Chrome()
+
+        # The webdriver will wait for at least five seconds
+        # every time it can't find something (in case it hasn't loaded yet).
+        # If it can find it, it won't have to wait for
+        # full 7 seconds to work, it will work immediately
+        dvr.implicitly_wait(7)
+
         dvr.get("https://edufpmi.bsu.by")
         main_url = dvr.current_url
         login(dvr, usr, pwd)
         if dvr.current_url == main_url:
             login(dvr, usr, pwd)
-        sleep(5)
         # получение списка курсов
         courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
 
         for i in range(len(courses)):
             courses[i].click()  # open course in current tab to get it's URL
-            sleep(5)  # todo: change it to the dynamic version
             linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                       "/attendance/1604991493/icon']")
             for x in range(len(linked_image)):
                 attendance = linked_image[x]
                 attendance.click()
-                sleep(5)
                 # find empty radiobutton (with 'ПРИСУТСТВОВАЛ' value)
                 # click it
                 dvr.back()
                 linked_image = dvr.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                           "/attendance/1604991493/icon']")
             dvr.back()
-            sleep(5)  # todo: change it to the dynamic version
             courses = dvr.find_elements_by_xpath("//span[@class='multiline']")
