@@ -49,7 +49,7 @@ if "__main__" == __name__:
                 if len(send_link) != 0:
                     send_link[-1].click()
                     dvr.find_element_by_xpath("//span[text()='Присутствовал']").click()
-                    dvr.find_element_by_id("айдишник кнопки сохранить").click()
+                    dvr.find_element_by_id("id_submitbutton").click()
                     dvr.back()
                     dvr.back()
                     # dvr.back()
