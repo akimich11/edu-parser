@@ -1058,6 +1058,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1605644554138	Marionette	INFO	Listening on port 32899
 1605644554233	Marionette	WARN	TLS certificate errors will be ignored for this session
 1605644590868	Marionette	INFO	Stopped listening on port 32899
+1605697688875	geckodriver	INFO	Listening on 127.0.0.1:36719
+1605697689883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5i0r9D"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1605697693633	Marionette	INFO	Listening on port 44691
+1605697693726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605697704028	Marionette	INFO	Stopped listening on port 44691
 1605697525098	geckodriver	INFO	Listening on 127.0.0.1:59549
 1605697528132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\akimi\\AppData\\Local\\Temp\\rust_mozprofilekToVLJ"
 Can't find symbol 'eglSwapBuffersWithDamageEXT'.

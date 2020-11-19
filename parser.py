@@ -42,10 +42,9 @@ def edu_runner(driver, courses):
                 send_link[-1].click()
                 driver.find_element_by_xpath("//span[text()='Присутствовал']").click()
                 driver.find_element_by_id("id_submitbutton").click()
-                # sleep(5)
-                driver.back()
-                driver.back()
-                # driver.back()
+                sleep(5)
+                driver.quit()
+                return
             driver.back()
             linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                          "/attendance/1604991493/icon']")
