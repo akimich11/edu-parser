@@ -10,16 +10,6 @@ def login(driver, username, password):
     driver.find_element_by_id("loginbtn").click()
 
 
-# конкретно тут я пробовал входить на одну из лекций на своём курсе ДМиМЛа, получилось
-def enter_conference(driver, course_url):
-    driver.get(course_url)
-    driver.find_element_by_xpath('//*[@id="module-2658"]/div/div/div[2]/div/a').click()
-    driver.find_element_by_id("join_button_input").click()
-    driver.switch_to.window(driver.window_handles[-1])
-    sleep(15)
-    driver.find_element_by_xpath("//span[text()='Только слушать']").click()
-
-
 def try_to_click(element):
     while True:
         try:
@@ -29,7 +19,7 @@ def try_to_click(element):
             pass
 
 
-def edu_runner(driver, courses):
+def attendance_clicker(driver, courses):
     for i in range(len(courses)):
         try_to_click(courses[i])
         linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
@@ -44,12 +34,47 @@ def edu_runner(driver, courses):
                 driver.find_element_by_id("id_submitbutton").click()
                 sleep(5)
                 driver.quit()
-                return
+                return i
             driver.back()
             linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                          "/attendance/1604991493/icon']")
         driver.back()
         courses = driver.find_elements_by_xpath("//span[@class='multiline']")
+    return -1
+
+
+def search_in_course(driver, course):
+    try_to_click(course)
+    linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
+                                                 "/bigbluebuttonbn/1604991493/icon']")
+    for x in range(len(linked_image)):
+        conference = linked_image[x]
+        conference.click()
+        control_panel = driver.find_element_by_id("control_panel_div")
+        if str(control_panel.text).find("Этот сеанс начался") != -1:
+            driver.find_element_by_id("join_button_input").click()
+            driver.switch_to.window(driver.window_handles[-1])
+            sleep(15)
+            driver.find_element_by_xpath("//span[text()='Только слушать']").click()
+            return True
+        driver.back()
+        linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
+                                                     "/bigbluebuttonbn/1604991493/icon']")
+    driver.back()
+    return False
+
+
+def conference_clicker(driver, courses, number):
+    if number != -1:
+        search_in_course(driver, courses[number])
+    else:
+        for i in range(len(courses)):
+            result = search_in_course(driver, courses[i])
+            if result:
+                return True
+            else:
+                courses = driver.find_elements_by_xpath("//span[@class='multiline']")
+    return False
 
 
 if "__main__" == __name__:
@@ -67,5 +92,6 @@ if "__main__" == __name__:
         if dvr.current_url == main_url:
             login(dvr, usr, pwd)
 
-        edu_runner(dvr, dvr.find_elements_by_xpath("//span[@class='multiline']"))
-        dvr.quit()
+        course_number = attendance_clicker(dvr, dvr.find_elements_by_xpath("//span[@class='multiline']"))
+        if not conference_clicker(dvr, dvr.find_elements_by_xpath("//span[@class='multiline']"), course_number):
+            dvr.quit()
