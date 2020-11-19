@@ -69,11 +69,10 @@ def conference_clicker(driver, courses, number):
         search_in_course(driver, courses[number])
     else:
         for i in range(len(courses)):
-            result = search_in_course(driver, courses[i])
-            if result:
+            was_found = search_in_course(driver, courses[i])
+            if was_found:
                 return True
-            else:
-                courses = driver.find_elements_by_xpath("//span[@class='multiline']")
+            courses = driver.find_elements_by_xpath("//span[@class='multiline']")
     return False
 
 

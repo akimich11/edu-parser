@@ -1480,3 +1480,10 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
 JavaScript error: https://edufpmi.bsu.by/lib/javascript.php/1604991493/lib/requirejs/require.min.js, line 1: Error: Script error for "core/event"
 http://requirejs.org/docs/errors.html#scripterror
+1605778467348	Marionette	INFO	Stopped listening on port 61949
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
