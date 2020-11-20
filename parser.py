@@ -1,6 +1,7 @@
 from time import sleep
 from selenium import webdriver
 from selenium import common
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 # собственно вход
@@ -22,6 +23,7 @@ def try_to_click(element):
 def attendance_clicker(driver, courses):
     for i in range(len(courses)):
         try_to_click(courses[i])
+        driver.implicitly_wait(1)
         linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                      "/attendance/1604991493/icon']")
         for x in range(len(linked_image)):
@@ -39,12 +41,14 @@ def attendance_clicker(driver, courses):
             linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                          "/attendance/1604991493/icon']")
         driver.back()
+        driver.implicitly_wait(7)
         courses = driver.find_elements_by_xpath("//span[@class='multiline']")
     return -1
 
 
 def search_in_course(driver, course):
     try_to_click(course)
+    driver.implicitly_wait(1)
     linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                  "/bigbluebuttonbn/1604991493/icon']")
     for x in range(len(linked_image)):
@@ -54,7 +58,8 @@ def search_in_course(driver, course):
         if str(control_panel.text).find("Этот сеанс начался") != -1:
             driver.find_element_by_id("join_button_input").click()
             driver.switch_to.window(driver.window_handles[-1])
-            sleep(15)
+            WebDriverWait(driver, timeout=15).until(lambda d:
+                                                    d.find_element_by_xpath("//span[text()='Только слушать']"))
             driver.find_element_by_xpath("//span[text()='Только слушать']").click()
             return True
         driver.back()
@@ -72,6 +77,7 @@ def conference_clicker(driver, courses, number):
             was_found = search_in_course(driver, courses[i])
             if was_found:
                 return True
+            driver.implicitly_wait(7)
             courses = driver.find_elements_by_xpath("//span[@class='multiline']")
     return False
 
