@@ -1,4 +1,6 @@
 from time import sleep
+
+import selenium
 from selenium import webdriver
 from selenium import common
 from selenium.webdriver.support.ui import WebDriverWait
@@ -39,8 +41,11 @@ def attendance_clicker(driver, courses):
             send_link = driver.find_elements_by_link_text("Отправить посещаемость")
             if len(send_link) != 0:
                 send_link[-1].click()
-                driver.find_element_by_xpath("//span[text()='Присутствовал']").click()
-                driver.find_element_by_id("id_submitbutton").click()
+                try:
+                    driver.find_element_by_xpath("//span[text()='Присутствовал']").click()
+                    driver.find_element_by_id("id_submitbutton").click()
+                except selenium.common.exceptions.NoSuchElementException:
+                    print("Кнопка 'присутствовал' не найдена")
                 sleep(5)
                 driver.back()
                 driver.back()
