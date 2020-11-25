@@ -10,6 +10,9 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 MAX_TIMEOUT = 10
 MIN_TIMEOUT = 2
+JSON_ERROR_TIMEOUT = 0.2
+
+UNEXPECTED_JSON_CLOSE_BUTTON_XPATH = "//button[@class='yui3-button closebutton']"
 
 
 def login(driver, username, password):
@@ -28,10 +31,23 @@ def try_to_click(element):
             pass
 
 
+def try_to_close_unexpected_json(driver):
+    try:
+        driver.implicitly_wait(JSON_ERROR_TIMEOUT)
+        close_button = driver.find_element_by_xpath(UNEXPECTED_JSON_CLOSE_BUTTON_XPATH)
+        driver.implicitly_wait(MIN_TIMEOUT)
+        try_to_click(close_button)
+    except selenium.common.exceptions.NoSuchElementException:
+        pass
+
+
 def attendance_clicker(driver, courses):
     for i in range(len(courses)):
-        try_to_click(courses[i])
         driver.implicitly_wait(MIN_TIMEOUT)
+
+        try_to_close_unexpected_json(driver)
+        try_to_click(courses[i])
+
         print('Зашёл на курс ' + str(i))
         linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                      "/attendance/1604991493/icon']")
@@ -58,14 +74,18 @@ def attendance_clicker(driver, courses):
             linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                          "/attendance/1604991493/icon']")
         driver.back()
+        try_to_close_unexpected_json(driver)
         driver.implicitly_wait(MAX_TIMEOUT)
         courses = driver.find_elements_by_xpath("//span[@class='multiline']")
     return -1
 
 
 def search_in_course(driver, course):
-    try_to_click(course)
     driver.implicitly_wait(MIN_TIMEOUT)
+
+    try_to_close_unexpected_json(driver)
+    try_to_click(course)
+
     linked_image = driver.find_elements_by_xpath("//img[@src='https://edufpmi.bsu.by/theme/image.php/moove"
                                                  "/bigbluebuttonbn/1604991493/icon']")
     for x in range(len(linked_image)):
