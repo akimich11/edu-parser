@@ -123,31 +123,33 @@ def reply(message):
     elif this_user[1].chooser:
         if str(message.text).isdigit():
             index = int(message.text) - 1
-            f = open("tasks.txt")
+            f = open("tasks.csv")
             removed_line = get_line_by_id(f, this_user[0].username)
+            f.close()
+            f = open("tasks.csv")
             lines_to_save = remove_line_by_id(f, this_user[0].username)
             f.close()
-            with open("tasks.txt", "a") as f:
+            with open("tasks.csv", "w") as f:
                 if removed_line != "":
-                    removed_line += "," + this_user[0].links[index]
-                    f.write(lines_to_save + removed_line)
+                    f.write(lines_to_save + removed_line.replace('\n', '') + "," + this_user[0].links[index] + '\n')
                 else:
                     f.write(lines_to_save + this_user[0].username + "," + this_user[0].password + "," +
                             this_user[0].links[index] + "\n")
+            bot.send_message(message.chat.id, "Принял")
 
 
 def get_line_by_id(f, u_id):
-    for line in f:
-        if line.split(",")[0] == u_id:
-            return line
+    for file_line in f:
+        if file_line.split(",")[0] == u_id:
+            return file_line
     return ""
 
 
 def remove_line_by_id(f, u_id):
     lines_to_save = ""
-    for line in f:
-        if line.split(",")[0] != u_id and line != '\n':
-            lines_to_save += line
+    for file_line in f:
+        if file_line.split(",")[0] != u_id:
+            lines_to_save += file_line
     return lines_to_save
 
 
