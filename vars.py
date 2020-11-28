@@ -3,8 +3,9 @@ class User:
         self.username = "null"
         self.password = "null"
         self.chat_id = chat_id
-        self.times = buttons
-        self.times_to_attend = []
+        self.courses = []
+        self.items = []
+        self.dvr = "null"
 
 
 class UserBooleans:
@@ -13,6 +14,7 @@ class UserBooleans:
         self.username = False
         self.password = False
         self.registered = False
+        self.chooser = False
 
 
 users = []
