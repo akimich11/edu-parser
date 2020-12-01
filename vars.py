@@ -4,7 +4,7 @@ class User:
         self.password = "null"
         self.chat_id = chat_id
         self.courses = []
-        self.items = []
+        self.links = []
         self.dvr = "null"
 
 

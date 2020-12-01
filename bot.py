@@ -137,6 +137,21 @@ def reply(message):
                             this_user[0].links[index] + "\n")
             bot.send_message(message.chat.id, "Принял")
 
+        elif message.text == "Готово":
+            with open("tasks.csv") as f:
+                data = get_line_by_id(f, this_user[0].username).split(",")
+                s = ""
+                for cell_number in range(len(data) - 2):
+                    s += str(cell_number + 1) + data[cell_number + 2] + "\n"
+            if s == "":
+                bot.send_message(message.chat.id, "Ничего не выбрано")
+                return
+            else:
+                bot.send_message(message.chat.id, "Принято. Завтра я попробую посетить эти ссылки:\n\n" + s +
+                                 "\nЕсли ты что-то забыл, можешь добавить, повторив всю процедуру заново. "
+                                 "Если что-то пойдёт не так, я тебе сообщу")
+                this_user[1].chooser = False
+
 
 def get_line_by_id(f, u_id):
     for file_line in f:
@@ -185,9 +200,11 @@ def callback_inline(call):
                 if k % 4 == 0:
                     s += "\n"
                 items.append(types.KeyboardButton(str(k)))
+            items.append(types.KeyboardButton("Готово"))
             markup.add(*items)
             bot.send_message(call.message.chat.id, 'Вот что есть на выбранном курсе:\n\n' + s)
-            bot.send_message(call.message.chat.id, 'Выбери пункты, на которые мне завтра тыкнуть', reply_markup=markup)
+            bot.send_message(call.message.chat.id, 'Выбери пункты, на которые мне завтра тыкнуть. Когда закончишь, '
+                                                   'нажми на кнопку "Готово"', reply_markup=markup)
             this_user[1].chooser = True
         else:
             bot.send_message(call.message.chat.id, 'Кажется, выбранный курс пустой :(')
